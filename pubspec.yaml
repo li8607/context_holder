@@ -1,6 +1,6 @@
 name: context_holder
 description: A flutter build context holder, very easy to use, init once, use everywhere. Enjoy!
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/GP-Moon/context_holder
 
 environment:
