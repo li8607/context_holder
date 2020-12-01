@@ -6,7 +6,7 @@ A flutter build context holder, init once, use everywhere.
 
 ```dart
 dependencies:
-  context_holder: ^0.0.1
+  context_holder: ^0.0.2
 ```
 
 ### 2. Import context holder
