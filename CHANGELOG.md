@@ -10,3 +10,7 @@
 
 * Update readme.
 
+## 0.0.4
+
+* Define return type.
+

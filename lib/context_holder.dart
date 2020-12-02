@@ -10,7 +10,7 @@ import 'package:flutter/widgets.dart';
 /// Build context holder.
 class ContextHolder {
   /// get current context.
-  static get currentContext {
+  static BuildContext get currentContext {
     return key.currentContext;
   }
 
@@ -20,12 +20,12 @@ class ContextHolder {
   }
 
   /// get current widget.
-  static get currentWidget {
+  static Widget get currentWidget {
     return key.currentWidget;
   }
 
   /// get current overlay.
-  static get currentOverlay {
+  static OverlayState get currentOverlay {
     return key.currentState.overlay;
   }
 
