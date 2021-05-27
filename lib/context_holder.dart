@@ -10,7 +10,7 @@ import 'package:flutter/widgets.dart';
 /// Build context holder.
 class ContextHolder {
   /// get current context.
-  static BuildContext get currentContext {
+  static BuildContext? get currentContext {
     return key.currentContext;
   }
 
@@ -20,13 +20,13 @@ class ContextHolder {
   }
 
   /// get current widget.
-  static Widget get currentWidget {
+  static Widget? get currentWidget {
     return key.currentWidget;
   }
 
   /// get current overlay.
-  static OverlayState get currentOverlay {
-    return key.currentState.overlay;
+  static OverlayState? get currentOverlay {
+    return key.currentState?.overlay;
   }
 
   /// root app navigator key.
